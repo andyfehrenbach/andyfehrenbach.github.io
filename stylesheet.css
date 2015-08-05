@@ -25,7 +25,7 @@ time, mark, audio, video {
 }
 /*end reset*/
 
-h1, h2, h3, h4 p, li {
+h1, h2, h3, h4, p, li {
 	color: #000;
 	letter-spacing: 1px;
 	font-family: 'merriweather', georgia, serif;
