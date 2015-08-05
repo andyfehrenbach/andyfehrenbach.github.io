@@ -1,0 +1,164 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/*end reset*/
+
+h1, h2, h3, p, li {
+	color: #000;
+	letter-spacing: 1px;
+	font-family: 'merriweather', georgia, serif;
+	font-size: 1em;
+	font-weight: 400;
+}
+
+h1 {
+	font-weight: 900;
+	font-style: italic;
+	font-size: 5em;
+	z-index: 1;
+	color: #222;
+	margin-top: 0px;
+}
+
+h2{
+	font-weight: 700;
+	font-size: 1.5em;
+	color:#222;
+	border-bottom: 4px solid #ddd;
+	padding-bottom: 1px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	margin-top: 2em;
+	margin-bottom: 0em;
+}
+
+h3 {
+	font-family: 'oswald', sans-serif;
+	font-size: 1em;
+	margin: 0px;
+	color: #222;
+	text-transform: uppercase;
+	margin-top: 2em;
+	
+}
+ul{
+	padding-left: 1em;
+	margin-top: 1em;
+}
+
+li{
+	margin-bottom: .75em;
+	letter-spacing: .5px;
+}
+p{
+	margin:.5em 0;
+}
+
+a{
+	color:#666;
+	text-decoration: none;
+}
+
+a:hover {
+color: #da291c;
+}
+
+.masthead a{
+	color: #222;
+}
+
+.masthead a:hover{
+	letter-spacing: .5em;
+}
+
+.right li{
+	margin-bottom: .25em;
+	margin-top:.25em;
+}
+
+.masthead {
+	
+	line-height: 4.5em;
+	margin bottom: -5em;
+	position: relative;
+	left: -.5em;
+	top:.75em;
+}
+
+.intro h1 {
+	text-align: center;
+	
+	font-size: 1.5em;
+	line-height: 1.5em;
+	padding: .75em 20%;
+	margin: 0px;
+	background-color: #f8f8f8;
+	
+}
+
+
+.bar{
+	border-top: 1em solid #b9d9eb;
+	height: 5em;
+	background-color:#da291c;
+	width: 110%;
+	margin-top: -.75em;
+
+}
+/*.rule{
+	height: 4px;
+	background-color: #ddd;
+	margin: 0 5%;
+}*/
+
+
+.col-left {
+padding: 1em;
+padding-top: 0;
+width: 60%;
+margin-left: 1em;
+float: left;
+/*border-left: 3px solid #DDD;*/
+}
+
+.col-right {
+padding: 1em;
+width: 30%;
+padding-top: 0;
+float: right;
+/*border-left: 3px solid #ddd;*/
+display: inline;
+margin-bottom: 2em;
+margin-right: 1em;
+}
+
+
+footer {
+	height: 1em;
+	background-color: #da291c;
+	border-top: 4px solid #b9d9eb;
+	clear: both;
+	margin-top: 4em;
+}
